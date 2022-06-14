@@ -40,8 +40,6 @@ class ReviewWidget extends Component {
                 "Product Link": <a href={offer.offer.link}>{offer.offer.merchant_link_text}</a>
             })
         })
-
-        console.log(rows);
         return rows;
     }
 
